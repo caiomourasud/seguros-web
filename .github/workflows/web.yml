@@ -2,7 +2,7 @@ name: Gh-Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
@@ -13,4 +13,4 @@ jobs:
       - uses: subosito/flutter-action@v1
       - uses: erickzanardo/flutter-gh-pages@v7
         with: 
-          baseHref: /seguros_web/
+          baseHref: /seguros-web/
